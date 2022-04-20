@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <!-- NORMALIZE -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="form-body">
+
+    <main class="main-content">
+        
+        <div class="container">
+            <form class="form" action="https://echo.htmlacademy.ru/" method="POST">
+                <div class="form-top-wrapper">
+                    <h1 class="form-title">Accaunt settings</h1>
+                    <button class="form-exit" type="button"><img class="form-exit-img" src="./img/button-exit.png" alt="Exit" width="20" heihgt="19"></button>
+                </div>
+                <div class="profile">
+                    <img class="profile-img" src="./img/profile-img.png" alt="Profile img" width="56" heihgt="56">
+                    <label class="form-label">
+                        <span class="label-text">username</span>
+                        <input class="input" type="text" placeholder="Enter your username" required name="username">
+                    </label>
+                    <div class="form-name">
+                        <label class="form-name-item">
+                            <span class="label-text">first name</span>
+                            <input class="input" type="text" placeholder="Enter your first name" name="first-name" required>
+                        </label>
+                        <label class="form-name-item">
+                            <span class="label-text">last name</span>
+                            <input class="input" type="text" placeholder="Enter your last name" name="last-name" required>
+                        </label>
+                    </div>
+                    <label class="form-label">
+                        <span class="label-text">email</span>
+                        <input class="input" type="email" placeholder="Enter your email" required name="">
+                    </label>
+                    <label class="form-label">
+                        <span class="label-text">bio</span>
+                        <textarea class="textarea" name="about-yourself" id="" cols="30" rows="10" placeholder="Tell us about yourself"></textarea>
+                    </label>
+
+                </div>
+                <div class="form-button-wrapper">
+                    <button class="form-button" type="reset">Cancel</button>
+                    <button class="form-button" type="submit">Save</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
